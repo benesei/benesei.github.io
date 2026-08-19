@@ -21,7 +21,7 @@ latest_posts:
 
 I am a Master's student in Mathematics at [ETH Zurich](https://ethz.ch/). My research interests include domain generalization, representation learning, causality, and mechanistic interpretability.
 
-My BSc thesis, supervised by [Prof. Jonas Peters](https://people.math.ethz.ch/~jopeters/), resulted in [**Anchor PCA**](https://arxiv.org/abs/2606.06233), a method for invariant dimensionality reduction across multiple environments.
+My BSc thesis, supervised by [Prof. Jonas Peters](https://people.math.ethz.ch/~jopeters/), resulted in [Anchor PCA](https://arxiv.org/abs/2606.06233), a method for invariant dimensionality reduction across multiple environments.
 
 <div class="social">
   <div class="contact-icons">{% social_links %}</div>

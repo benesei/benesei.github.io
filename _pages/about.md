@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: MSc student in Mathematics at [ETH Zurich](https://ethz.ch/) working on statistics, machine learning, and causality.
+subtitle: MSc student in Mathematics at <a href="https://ethz.ch/">ETH Zurich</a> working on statistics, machine learning, and causality.
 
 profile:
   align: right

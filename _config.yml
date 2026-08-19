@@ -7,15 +7,12 @@ contact_note:
 description: Personal website of Benedikt Seiter, an MSc Mathematics student at ETH Zurich working on statistics, machine learning, and causality.
 keywords: Benedikt Seiter, statistics, machine learning, causality, ETH Zurich
 lang: en
-icon: ⚛️
 
 url: https://benesei.github.io
 baseurl: ""
 
-footer_text: >
-  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with
-  <a href="https://github.com/alshedivat/al-folio">al-folio</a>.
-last_updated: false
+footer_text:
+last_updated: true
 impressum_path:
 
 # Layout
@@ -144,19 +141,19 @@ third_party_libraries:
     integrity:
       css: "sha256-MVopmdyC2tYTiJ8wlktf0uh0v4NgT+vNdyVFepi7Q0c="
     url:
-      css: "https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@{{version}}/css/all.min.css"
+      css: "https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.2.0/css/all.min.css"
     version: "7.2.0"
   academicons:
     integrity:
       css: "sha256-SzrCOBJbGVFMahewkgjwnApaV2+av1DwMAA+/QGLyZw="
     url:
-      css: "https://cdn.jsdelivr.net/npm/academicons@{{version}}/css/academicons.min.css"
+      css: "https://cdn.jsdelivr.net/npm/academicons@1.9.5/css/academicons.min.css"
     version: "1.9.5"
   scholar-icons:
     integrity:
       css: "sha256-VY3hHVj/hNX3fYG6wtbA6TcKJQl7+FthzGSyIB64klY="
     url:
-      css: "https://cdn.jsdelivr.net/npm/scholar-icons@{{version}}/css/scholar-icons.css"
+      css: "https://cdn.jsdelivr.net/npm/scholar-icons@1.0.3/css/scholar-icons.css"
     version: "1.0.3"
 
 # Jekyll

@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: ttps://benesei.github.io/sitemap.xml
+Sitemap: https://benesei.github.io/sitemap.xml

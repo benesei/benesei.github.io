@@ -17,7 +17,7 @@ impressum_path:
 
 # Layout
 navbar_fixed: true
-footer_fixed: true
+footer_fixed: false
 back_to_top: false
 max_width: 930px
 enable_darkmode: true

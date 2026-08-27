@@ -193,6 +193,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-socials
   - al_folio_core
+  - al_analytics
   - al_icons
   - al_citations
   - al_folio_upgrade

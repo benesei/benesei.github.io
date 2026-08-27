@@ -10,6 +10,7 @@ group :jekyll_plugins do
   gem "jekyll-socials", "= 0.0.7"
 
   gem "al_folio_core", "= 1.0.15"
+  gem "al_analytics", "= 1.0.2"
   gem "al_icons", "= 1.0.0"
   gem "al_citations", "= 1.0.1"
   gem "al_folio_upgrade", "= 1.0.3"

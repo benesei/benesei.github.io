@@ -23,12 +23,8 @@
 @use "teachings";
 @use "typograms";
 
-.post h2 {
-  text-transform: capitalize;
-}
-
 .anchor-pca-explainer {
-  margin: -0.5rem 0 2rem 16.6667%;
+  margin: -0.5rem 0 2rem;
 
   h3 {
     font-size: 1.125rem;
@@ -36,7 +32,7 @@
   }
 
   figure {
-    max-width: 420px;
+    width: 100%;
     margin: 1rem 0 0;
   }
 
@@ -71,10 +67,6 @@
 }
 
 @media (max-width: 575.98px) {
-  .anchor-pca-explainer {
-    margin-left: 0;
-  }
-
   .news th {
     min-width: 6.5rem;
   }

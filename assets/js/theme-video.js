@@ -2,7 +2,6 @@
   const root = document.documentElement;
 
   document.querySelectorAll(".theme-video").forEach((video) => {
-    const panel = video.closest("details");
     let position = 0;
     let restorePlayback = null;
     let shouldResume = false;
@@ -22,7 +21,7 @@
 
       restorePlayback = () => {
         video.currentTime = Math.min(position, video.duration || position);
-        if (shouldResume && panel.open) video.play().catch(() => {});
+        if (shouldResume) video.play().catch(() => {});
         shouldResume = false;
         restorePlayback = null;
       };
@@ -31,15 +30,6 @@
       video.poster = video.dataset[`${theme}Poster`];
       video.load();
     };
-
-    panel.addEventListener("toggle", () => {
-      if (panel.open) {
-        video.preload = "metadata";
-      } else {
-        shouldResume = false;
-        video.pause();
-      }
-    });
 
     syncTheme();
     new MutationObserver(syncTheme).observe(root, {

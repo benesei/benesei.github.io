@@ -1,0 +1,18 @@
+<div class="news">
+  {% assign news = site.news | sort: 'news_order' %}
+  {% if include.limit and page.announcements.limit %}
+    {% assign news_limit = page.announcements.limit %}
+  {% else %}
+    {% assign news_limit = news | size %}
+  {% endif %}
+  <div class="table-responsive">
+    <table class="table table-sm table-borderless">
+      {% for item in news limit: news_limit %}
+        <tr>
+          <th scope="row" style="width: 20%"><time datetime="{{ item.date | date: '%Y-%m' }}">{{ item.date | date: '%b, %Y' }}</time></th>
+          <td>{{ item.content | remove: '<p>' | remove: '</p>' }}</td>
+        </tr>
+      {% endfor %}
+    </table>
+  </div>
+</div>

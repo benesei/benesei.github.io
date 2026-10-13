@@ -26,9 +26,9 @@
 .anchor-pca-explainer {
   margin: -0.5rem 0 2rem 16.6667%;
 
-  summary {
-    color: var(--global-theme-color);
-    cursor: pointer;
+  h3 {
+    font-size: 1.125rem;
+    font-weight: 400;
   }
 
   figure {
@@ -47,6 +47,22 @@
     margin-top: 0.5rem;
     color: var(--global-text-color-light);
     font-size: 0.875rem;
+  }
+}
+
+.contact-links {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.5rem 1rem;
+  margin-top: 1.5rem;
+
+  a {
+    white-space: nowrap;
+  }
+
+  i {
+    font-size: 1em;
   }
 }
 

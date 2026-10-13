@@ -14,3 +14,5 @@ nav_order: 2
 {% bibliography %}
 
 </div>
+
+{% include anchor_pca_explainer.liquid %}

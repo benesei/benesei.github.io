@@ -186,6 +186,10 @@ defaults:
     values:
       sitemap: false
 
+collections:
+  news:
+    output: false
+
 plugins:
   - jekyll-cache-bust
   - jekyll-regex-replace

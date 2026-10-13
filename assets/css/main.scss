@@ -23,6 +23,10 @@
 @use "teachings";
 @use "typograms";
 
+.post h2 {
+  text-transform: capitalize;
+}
+
 .anchor-pca-explainer {
   margin: -0.5rem 0 2rem 16.6667%;
 

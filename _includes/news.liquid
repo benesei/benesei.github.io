@@ -1,5 +1,5 @@
 <div class="news">
-  {% assign news = site.news | sort: 'news_order' %}
+  {% assign news = site.news | sort: 'news_order' | reverse %}
   {% if include.limit and page.announcements.limit %}
     {% assign news_limit = page.announcements.limit %}
   {% else %}

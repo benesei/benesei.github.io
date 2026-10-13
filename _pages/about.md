@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: MSc student in Mathematics at <a href="https://ethz.ch/">ETH Zurich</a> working on statistics, machine learning, and causality.
 

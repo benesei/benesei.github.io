@@ -4,19 +4,25 @@
     <h3 id="anchor-pca-explainer-title">Anchor PCA in 110 seconds:</h3>
     <figure>
       <video
+        class="theme-video"
         controls
         playsinline
         preload="metadata"
         width="1080"
         height="1080"
         aria-label="Anchor PCA: a 110-second visual explainer"
-        src="{{ '/assets/video/anchor-pca-mathematical.mp4' | relative_url }}"
-        poster="{{ '/assets/video/anchor-pca-mathematical.jpg' | relative_url }}"
+        src="{{ '/assets/video/anchor-pca-mathematical-white.mp4' | relative_url }}"
+        poster="{{ '/assets/video/anchor-pca-mathematical-white.jpg' | relative_url }}"
+        data-light-src="{{ '/assets/video/anchor-pca-mathematical-white.mp4' | relative_url }}"
+        data-dark-src="{{ '/assets/video/anchor-pca-mathematical.mp4' | relative_url }}"
+        data-light-poster="{{ '/assets/video/anchor-pca-mathematical-white.jpg' | relative_url }}"
+        data-dark-poster="{{ '/assets/video/anchor-pca-mathematical.jpg' | relative_url }}"
       >
         Your browser does not support embedded video.
-        <a href="{{ '/assets/video/anchor-pca-mathematical.mp4' | relative_url }}">Open the explainer video</a>.
+        <a href="{{ '/assets/video/anchor-pca-mathematical-white.mp4' | relative_url }}">Open the explainer video</a>.
       </video>
       <figcaption>A short visual introduction to Anchor PCA.</figcaption>
     </figure>
   </section>
 </div>
+<script defer src="{{ '/assets/js/theme-video.js' | relative_url | bust_file_cache }}"></script>
